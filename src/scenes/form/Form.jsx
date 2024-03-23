@@ -65,7 +65,7 @@ const Form = () => {
             fullWidth
             variant="filled"
             type="text"
-            value={profileForm.values.firstName}
+            value={profileForm.values.lastName}
             name="lastName"
             id="Last Name"
             label={"Last Name"}
