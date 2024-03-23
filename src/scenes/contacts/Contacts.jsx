@@ -97,7 +97,6 @@ export default function FullFeaturedCrudGrid() {
   };
 
   const columns = [
-    { field: "id", headerName: "ID" },
     { field: "name", headerName: "Name", width: 180, editable: true },
     {
       field: "age",

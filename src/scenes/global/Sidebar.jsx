@@ -147,7 +147,7 @@ const Sidebarr = ({ isCollapsed, setIsCollapsed }) => {
         <Box>
           <Item
             title={"Dashboard"}
-            to={"/"}
+            to={"/dashboard"}
             selected={selected}
             setSelected={setSelected}
             icon={<HomeOutlinedIcon />}
